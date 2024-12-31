@@ -225,7 +225,7 @@ export const skills = [
   },
 ];
 
-export const experiences = [
+/*export const experiences = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
@@ -358,7 +358,7 @@ export const education = [
     desc: "I completed my class 10 education at Royal High School, under SSC AP.",
     degree: "State Board",
   },
-];
+];*/
 
 export const projects = [
   {
@@ -392,20 +392,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/HarshavardhanKakarla/Food-Delivery/tree/main",
     webapp: "",
-    /*member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],*/
   },
   {
     id: 1,
@@ -419,33 +405,7 @@ export const projects = [
     github: "https://github.com/HarshavardhanKakarla/Go-on-Wheels",
     webapp: " https://harshavardhankakarla.github.io/Go-on-Wheels/",
   },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
+ 
   {
     id: 3,
     title: "Blend Learn",
@@ -483,19 +443,6 @@ export const projects = [
     webapp:"https://www.figma.com/design/WRSAmz9zred7az82MM9Ux8/Real--Estate-Home-page?node-id=0-1&t=bY7YitTRUjj58mIz-1", 
   },
   {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-  {
     id: 5,
     title: "iTask",
     date: "Jun 2024",
@@ -506,19 +453,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/HarshavardhanKakarla/iTask/",
     webapp: "https://harshavardhankakarla.github.io/iTask/",
-  },
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
   },
   {
     id: 7,
@@ -548,10 +482,3 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];

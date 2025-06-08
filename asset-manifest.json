@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/Portfolio/static/js/main.64400611.js",
+    "main.js": "/Portfolio/static/js/main.6f57fe50.js",
     "static/media/food.png": "/Portfolio/static/media/food.2cd3ad4824d8f6ab39a8.png",
     "static/media/musicrecom.png": "/Portfolio/static/media/musicrecom.593de3973e2548a55d06.png",
     "static/media/go-onw.png": "/Portfolio/static/media/go-onw.691bd47fd20fb45706e0.png",
     "static/media/restate.png": "/Portfolio/static/media/restate.8c2ae03322fa44d89757.png",
+    "static/media/Aws.jpg": "/Portfolio/static/media/Aws.47cc6fde161232b9a0e8.jpg",
+    "static/media/genai.jpg": "/Portfolio/static/media/genai.872b0299fe9b0b939d9b.jpg",
     "static/media/uber.png": "/Portfolio/static/media/uber.25f5dc06563debefb30b.png",
     "static/media/logo512.png": "/Portfolio/static/media/logo512.30b59b81e2369fe16cf7.png",
     "static/media/c1.jpg": "/Portfolio/static/media/c1.4da019191280af9071cb.jpg",
@@ -17,10 +19,10 @@
     "static/media/clg.jpg": "/Portfolio/static/media/clg.135d20f58049f0f7a1d3.jpg",
     "index.html": "/Portfolio/index.html",
     "main.bf538fe7.css.map": "/Portfolio/static/css/main.bf538fe7.css.map",
-    "main.64400611.js.map": "/Portfolio/static/js/main.64400611.js.map"
+    "main.6f57fe50.js.map": "/Portfolio/static/js/main.6f57fe50.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.64400611.js"
+    "static/js/main.6f57fe50.js"
   ]
 }

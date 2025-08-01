@@ -20,7 +20,7 @@ export const Bio = {
   github: "https://github.com/HarshavardhanKakarla",
   resume:
     "",
-  linkedin: "https://www.linkedin.com/in/harsha-vardhan-kakarla-3a7751256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  linkedin: "https://www.linkedin.com/in/harsha1906",
   twitter: "",
   insta: "",
   facebook: "",

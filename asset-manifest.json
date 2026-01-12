@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/Portfolio/static/js/main.f9fa1e58.js",
+    "main.js": "/Portfolio/static/js/main.fbd5b372.js",
     "static/media/food.png": "/Portfolio/static/media/food.2cd3ad4824d8f6ab39a8.png",
     "static/media/agri.png": "/Portfolio/static/media/agri.a721161260edff12c833.png",
     "static/media/musicrecom.png": "/Portfolio/static/media/musicrecom.593de3973e2548a55d06.png",
     "static/media/drow.png": "/Portfolio/static/media/drow.3bc44612087fdfe67d4e.png",
     "static/media/go-onw.png": "/Portfolio/static/media/go-onw.691bd47fd20fb45706e0.png",
+    "static/media/mov.png": "/Portfolio/static/media/mov.8c8cc45212f8933c7028.png",
     "static/media/restate.png": "/Portfolio/static/media/restate.8c2ae03322fa44d89757.png",
     "static/media/Aws.jpg": "/Portfolio/static/media/Aws.47cc6fde161232b9a0e8.jpg",
     "static/media/genai.jpg": "/Portfolio/static/media/genai.872b0299fe9b0b939d9b.jpg",
@@ -18,16 +19,17 @@
     "static/media/taskme.png": "/Portfolio/static/media/taskme.ad0d629033ac2ec2d803.png",
     "static/media/bl.png": "/Portfolio/static/media/bl.a2d79a3787b25fc98087.png",
     "static/media/race.png": "/Portfolio/static/media/race.ee5a6ba7e4feed9c0e68.png",
+    "static/media/rev.png": "/Portfolio/static/media/rev.c5c8983012d07b64c01d.png",
     "static/media/todo.png": "/Portfolio/static/media/todo.304e2ffe285c00c1d0a3.png",
     "static/media/word.png": "/Portfolio/static/media/word.4b09eb606529e3a34ecc.png",
     "static/media/clg.jpg": "/Portfolio/static/media/clg.135d20f58049f0f7a1d3.jpg",
     "static/media/brick.png": "/Portfolio/static/media/brick.d66e998c22f14a8d23b7.png",
     "index.html": "/Portfolio/index.html",
     "main.bf538fe7.css.map": "/Portfolio/static/css/main.bf538fe7.css.map",
-    "main.f9fa1e58.js.map": "/Portfolio/static/js/main.f9fa1e58.js.map"
+    "main.fbd5b372.js.map": "/Portfolio/static/js/main.fbd5b372.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.f9fa1e58.js"
+    "static/js/main.fbd5b372.js"
   ]
 }

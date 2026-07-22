@@ -7,21 +7,36 @@ import bl from '../images/bl.png'
 import restate from '../images/restate.png'
 import food from '../images/food.png'
 import itask from '../images/todo.png'
+import cryptex from '../images/cryp.png'
+import musrec from '../images/musicrecom.png'
+import summer from '../images/iitk.jpg'
+import aws from '../images/Aws.jpg'
+import gen from '../images/genai.jpg'
+import race from '../images/race.png'
+import brick from '../images/brick.png'
+import word from '../images/word.png'
+import taskme from '../images/taskme.png'
+import drow from '../images/drow.png'
+import agri from '../images/agri.png'
+import mov from '../images/mov.png'
+import rev from '../images/rev.png'
+
 export const Bio = {
-  name: "Harshavardhan Kakarla",
+  name: "Harshavardhan",
   roles: [
+    "Web Developer",
     "Mern Stack Developer",
-    "Web Designer",
+    "Machine Learning Engineer",
     "UI/UX Designer",
-    "Content Writer",
+    "Story Writer",
   ],
   description:
-    "I am a driven and adaptable professional, constantly seeking new challenges and opportunities for growth. My enthusiasm for learning fuels my commitment to delivering exceptional results. With a positive attitude and a growth mindset, I am dedicated to making meaningful contributions and achieving remarkable successes.",
+    "I am a self-driven and adaptable professional, constantly seeking new challenges and opportunities for growth. My enthusiasm for learning fuels my commitment to delivering exceptional results. With a positive attitude and a growth mindset, I am dedicated to making meaningful contributions and achieving remarkable successes.",
   github: "https://github.com/HarshavardhanKakarla",
   resume:
-    "",
-  linkedin: "https://www.linkedin.com/in/harsha1906",
-  twitter: "",
+    "https://drive.google.com/file/d/1TC8IlzS8Fq7U7UlDCq5DtWvgVpYfwOyS/view?usp=drive_link",
+  linkedin: "https://www.linkedin.com/in/harsha1906/",
+  twitter: "..",
   insta: "",
   facebook: "",
   mail:"mailto: kakarlaharshavardhan@gmail.com"
@@ -50,6 +65,10 @@ export const skills = [
       {
         name:"Javascript",
         image:"https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/javascript/javascript-original.svg",
+      },
+       {
+        name:"R",
+        image:"https://github.com/devicons/devicon/blob/ca28c779441053191ff11710fe24a9e6c23690d6/icons/r/r-plain.svg"
       },
       {
         name:"Matlab",
@@ -214,6 +233,10 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
+        name:"Jupyter",
+        image:"https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/jupyter/jupyter-original-wordmark.svg",
+      },
+      {
         name: "Postman",
         image:"https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/postman/postman-original.svg",
       },
@@ -225,7 +248,38 @@ export const skills = [
   },
 ];
 
-
+export const experiences = [
+  {id:1,
+    img: summer, 
+    role: "Summer Internship",
+    company: "IIT Kanpur",
+    date: "May 2025 - July 2025",
+    desc: "As a Summer Intern at IIT Kanpur under Dr. Dootika Vats, Dept of Mathematics and Stastics, IIT Kanpur worked on the theoretical and implemantation of MCMC algorithms. Studied about the optimization and convergence of these algorithms.",
+    skills: ["R", "Bayesian Stastics","Monte Carlo","MCMC Algorithms","Machine Learning", "Stastics" ],
+    doc:""
+  },
+  {
+    id: 2,
+    img: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-67d8f1f041976_screenshot_2025-03-18-09-39-03-13_254de13a4bc8758c9908fff1f73e3725.jpg?d=200x200",
+    role: "Web Developer Internship",
+    company: "See Caller",
+    date: "Feb 2025 - Apr 2025",
+    desc: "I worked as a web developer at See Caller where I got opportunity to showcase my skills by improving the frontend responsivity and user experience by adopting React.js and deployed new interactive elements. Improved APIs response time for better functionality and developed secure authentication flows, reducing vulnerability risks by 45%, and  boosting customer retention by 20%",
+    skills: ["React", "Node.js", "Express.js", "API", "SQL", "Material UI", "Frontend Development", "Backend Development" ],
+    doc:""
+  },
+  {
+    id: 3,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+    role: "UI/UX Designer",
+    company: "GDSC NIT Patna",
+    date: "Nov 2023 - Present",
+    desc: "As an UI/UX designer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    skills: [
+      "Figma", "Prototyping", "Creative", "Team work", "Photoshop" ],
+    doc:""
+  },
+];
 
 export const education = [
   {
@@ -233,8 +287,8 @@ export const education = [
     img: nitp,
     school: "National Institute of Technology Patna",
     date: "Oct 2022 - Sep 2026",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at National Institute of Technology Patna. I have completed 5 semesters and have a CGPA of ---. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at NIT Patna, where I am learning and working on exciting projects with a team of talented developers.",
+    grade: "8.74 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Mathematics and Computing Technology at National Institute of Technology Patna. I have completed 5 semesters and have a CGPA of 8.74. I have taken courses in Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks and Data Analytics among others. I am also a member of the Google Developers Student Club (GDSC) at NIT Patna, where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - Mathematics and Computing Technology",
   },
   {
@@ -259,13 +313,26 @@ export const education = [
 
 export const projects = [
   {
+    "id": 12,
+  "title": "Real-Time Drowsiness Detection System",
+  "date": "Feb 2025",
+  "description":
+    "Built a real-time drowsiness detection system using OpenCV and deep learning, capable of monitoring eye aspect ratio and alerting users when signs of fatigue are detected during driving.",
+  "image": drow,
+  "tags": [
+    "Python", "OpenCV", "NumPy", "Dlib", "Scikit-learn", "Streamlit", "Deep Learning"
+  ],
+  "category": "machine learning",
+  "github": "https://github.com/HarshavardhanKakarla/Drowsiness-Detection",
+  "webapp": ""
+  },
+  {
     id: 9,
     title: "Task Manager",
     date: "Oct 2024 - Dec 2024",
     description:
       "The Cloud-Based Task Manager is a web application designed to streamline team task management. Built using the MERN stack, this platform provides a user-friendly interface for efficient task assignment, tracking, and collaboration. The application caters to administrators and regular users, offering comprehensive features to enhance productivity and organization.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    image:taskme,
     tags: [
       "React Js",
       "MongoDb",
@@ -276,8 +343,59 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/HarshavardhanKakarla/Task-Manager",
+    webapp: "https://task-manager-1-ckqz.onrender.com",
+  },
+  {
+    id: 14,
+    title: "AgriDetect - Plant Disease Recognition",
+    date: "Dec 2024",
+    description:
+      "AgriDetect is a deep learning-based system designed to identify plant diseases from leaf images. The project leverages convolutional neural networks (CNNs) to classify and detect diseases, helping farmers and researchers take timely action to protect crops. The application integrates a web interface for uploading plant images, processes them using a trained model, and provides accurate predictions of plant health conditions.",
+    image:agri,
+    tags: ["Python", "TensorFlow", "Keras", "Flask", "HTML", "CSS", "Deep Learning"],
+    category: "machine learning",
+    github: "https://github.com/HarshavardhanKakarla/AgriDetect",
+    webapp: ""
+},
+   {
+    id: 13,
+    title: "Music Recommendation Sytem",
+    date: "Dec 2024",
+    description:
+      "The Music Recommendation System is designed to suggest personalized music recommendations based on user preferences and listening history. The project leverages machine learning techniques, particularly convolutional neural networks (CNNs), to analyze and predict user preferences for various music tracks",
+    image:musrec,
+    tags: ["Python", "Pandas", "Natural Language ToolKit", "Streamlit", "Pickle", "Jupyter"],
+    category: "machine learning",
+    github: "https://github.com/HarshavardhanKakarla/Music_Recommendation_System",
+    webapp: "https://musicrecommendationsystem-ahgvaljdnp8viq7z56vkhg.streamlit.app/",
+  },
+  {
+    id: 11,
+    title: "AI-Driven Virtual Calculator with Gesture Recognition ",
+    date: "Feb 2025",
+    description:
+      "Developed a gesture-based virtual calculator using OpenCV, enabling users to perform arithmetic operations through hand gestures without physical input devices.",
+    image:
+      "",
+    tags: [
+      "Python", "OpenCV", "NumPy", "Media Pipe", "PIL", "Streamlit", "Gen-AI "
+    ],
+    category: "machine learning",
+    github: "https://github.com/HarshavardhanKakarla/Computer-Vision/tree/main/Virtual-Calculator",
     webapp: "",
   },
+  {
+  id: 22,
+  title: "Movie Sentiment Analysis",
+  date: "Jan 2026",
+  description:
+    "Movie Sentiment Analysis is a machine learning project designed to classify IMDb movie reviews as positive or negative. Using the IMDb dataset of 50,000 reviews (25,000 for training and 25,000 for testing), the system applies text preprocessing and machine learning techniques to analyze sentiment. The project leverages models built with scikit-learn and NLTK, supported by exploratory Jupyter notebooks, and provides a framework for experimenting with improvements in sentiment classification.",
+  image: rev,
+  tags: ["Python", "Jupyter Notebook", "NumPy", "Pandas", "Scikit-learn", "NLTK", "Matplotlib", "Machine Learning"],
+  category: "machine learning",
+  github: "https://github.com/HarshavardhanKakarla/Movie_Sentiment_Analysis",
+  webapp: "https://moviereviewanalysi-7u8nr6x2dck6nhuenyl57b.streamlit.app/"
+},
   {
     id: 0,
     title: "Tomato",
@@ -287,8 +405,73 @@ export const projects = [
     image:food,
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux","React=Router"],
     category: "web app",
-    github: "https://github.com/HarshavardhanKakarla/Food-Delivery/tree/main",
+    github: "https://github.com/HarshavardhanKakarla/Food-Delivery-Mern",
     webapp: "",
+    /*member: [
+      {
+        name: "Rishav Chanda",
+        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        github: "https://github.com/rishavchanda/",
+      },
+      {
+        name: "Upasana Chaudhuri",
+        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/upasana0710",
+      },
+    ],*/
+  },
+  {
+  id: 21,
+  title: "Movie Recommendation System",
+  date: "Jan 2026",
+  description:
+    "It is a content-based movie recommendation system that uses cosine similarity over engineered feature vectors (such as genres, keywords, and cast/crew metadata) to suggest titles similar to a selected movie. It preprocesses a curated movie dataset, builds a similarity matrix, and serves fast, relevant recommendations. The app includes a simple interface to search movies and displays suggested titles along with posters fetched via an external API.",
+  image: mov,
+  tags: ["Python", "Jupyter Notebook", "Scikit-learn", "Pandas", "NumPy", "Flask", "Machine Learning"],
+  category: "machine learning",
+  github: "https://github.com/HarshavardhanKakarla/Movie-Recommendation-System",
+  webapp: "https://movie-recommendation-system-mesyvnqbwewfiv6bcxtp95.streamlit.app/"
+},
+  {
+    id: 12,
+    title: "Eye-Controlled Mouse Using OpenCV",
+    date: "Mar 2025",
+    description:
+      "Developed an eye-tracking mouse control system using OpenCV and MediaPipe, allowing users to navigate and interact with their computer using eye movements.",
+    image:
+      "",
+    tags: [
+      "Python", "OpenCV", "NumPy", "PyAutoGUI", "Streamlit"
+    ],
+    category: "machine learning",
+    github: "https://github.com/HarshavardhanKakarla/Computer-Vision/tree/main/Eye-control-mouse",
+    webapp: "",
+  },
+  {
+    id: 13,
+    title: "Game Zone",
+    date: "Jul 2025",
+    description:
+      "classic arcade-style games built in Python, featuring graphical interfaces, keyboard interaction, scoring systems, and responsive menus.",
+    image:race,
+    tags: ["Python","Pygame", "UI/UX", "Docker", "Game Development" ],
+    category: "others",
+    github: "https://github.com/HarshavardhanKakarla/Gaming-python/",
+    webapp: " --",
+  },
+  {
+    id: 14,
+    title: "Brick Breaker",
+    date: "Jul 2025",
+    description:
+      "classic arcade-style game breaking all the bricks using a bouncing ball and paddle. Built in Python, featuring graphical interfaces, keyboard interaction, scoring systems, and responsive menus.",
+    image:brick,
+    tags: ["Python","Pygame", "UI/UX", "Game Development" ],
+    category: "others",
+    github: "https://github.com/HarshavardhanKakarla/Gaming-python/tree/main/Brick%20Breaker",
+    webapp: " --",
   },
   {
     id: 1,
@@ -302,7 +485,43 @@ export const projects = [
     github: "https://github.com/HarshavardhanKakarla/Go-on-Wheels",
     webapp: " https://harshavardhankakarla.github.io/Go-on-Wheels/",
   },
- 
+  {
+    id: 14,
+    title: "Word Unscramble",
+    date: "Jul 2025",
+    description:
+      "classic arcade-style game to improve vocabulary along with improving reaction time. Built in Python, featuring graphical interfaces, keyboard interaction, scoring systems, and responsive menus.",
+    image:word,
+    tags: ["Python","Pygame","Docker", "UI/UX", "Game Development" ],
+    category: "others",
+    github: "https://github.com/HarshavardhanKakarla/Gaming-python/tree/main/Word%20Unscrambler",
+    webapp: " --",
+  },
+  {
+    id: 8,
+    title: "Face Recognition",
+    date: "Nov 2024",
+    description:
+      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+    image:
+      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
+    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    category: "machine learning",
+    github: "https://github.com/HarshavardhanKakarla/Face-Recognition-using-ML",
+    webapp: "https://github.com/HarshavardhanKakarla/Face-Recognition-using-ML",
+  },
+  {
+    id: 2,
+    title: "Cryptex",
+    date: "Jun 2024",
+    description:
+      "Designed and developed the Cryptex, a platform for crypto trading of different cryptocurrencies using Tailwind CSS. In this project ideas like horizontal in & out animation on vertical scroll, bento grid are used. This project is responsive design.",
+    image:cryptex,
+    tags: ["React Js","Tailwind CSS", "Crypto","HTML","CSS","Javascript","Responsive",],
+    category: "web app",
+    github: "https://github.com/HarshavardhanKakarla/Cryptex",
+    webapp: " https://harshavardhankakarla.github.io/Cryptex/",
+  },
   {
     id: 3,
     title: "Blend Learn",
@@ -348,34 +567,45 @@ export const projects = [
     image:itask,
     tags: ["React Js", "Local Storage", "Tailwind CSS", "Vite react"],
     category: "web app",
-    github: "https://github.com/HarshavardhanKakarla/iTask/",
+    github: "https://github.com/HarshavardhanKakarla/iTask",
     webapp: "https://harshavardhankakarla.github.io/iTask/",
   },
+
   {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
+    id: 12,
+    title: "Hospitality Process-Digitally",
+    date: "Jul 2024",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      "This web application facilitates the digitalization of the hospitality process for group accommodation. It allows users to upload two CSV files containing group information and hostel information to efficiently allocate rooms in hostels while ensuring group members with the same ID stay together and adhere to hostel capacities and gender-specific accommodations.",
+    image:"",
+    tags: ["Python","HTML","CSS","Flask","Pandas"],
+    category: "others",
+    github: "https://github.com/HarshavardhanKakarla/Hospitality-Process-Digitally",
+    webapp: " --",
   },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  },
+   
 ];
+
+export const certifications = [
+  {
+    id: 1,
+    title: "Introduction to ML on AWS",
+    organisation:"United Latino Students Association",
+    date: "Oct 2024",
+    image:aws,
+    tags: ["Python", "Machine Learning","Data Processing", "Data Analysis", "Amazon Web Services"
+    ],
+  },
+  {
+    id: 2,
+    title: "Generative AI",
+    organisation:"Google Cloud Skill Boost",
+    date: "Sep 2023",
+    image:gen,
+    tags: ["Python", "Artificial Intelligence", "Algorithms", 
+    ],
+  },
+  
+]
+
 
